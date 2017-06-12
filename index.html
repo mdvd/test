@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST PAGE</title>
+    <link href="css/style.css" rel="stylesheet">   
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <div class="page-header__logo">
+          <a href="#">test theme</a>
+        </div>
+        <nav class="page-header__nav  main-nav  main-nav--closed">
+          <button class="main-nav__toggle" type="button" name="menu">Открыть меню</button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__menu">
+              <li><a class="main-nav__menu-categories" href="#">categories</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+            <ul class="main-nav__loc">
+              <li><a class="main-nav__loc-lang" href="#">EN</a></li>
+              <li><a class="main-nav__loc-cy" href="#">$ US</a></li>
+            </ul>
+          </div>
+        </nav>
+        <ul class="page-header__user-nav  user-nav">
+          <li><a class="user-nav__search" href="#">search</a></li>
+          <li><a class="user-nav__account" href="#">account</a></li>
+          <li><a class="user-nav__like-item" href="#">like-item <span class="user-nav__added">1</span></a></li>
+          <li><a class="user-nav__cart" href="#">cart <span class="user-nav__added">2</span></a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="menu-categories">
+      <div class="menu-categories__wrapper">
+        <div class="menu-categories__product-wrapper">
+          <b class="menu-categories__title">product categories</b>
+          <ul class="menu-categories__product-clmn-1">
+          </ul>
+          <ul class="menu-categories__product-clmn-2">
+          </ul>
+          <ul class="menu-categories__product-clmn-3">
+          </ul>
+        </div>
+        <div class="menu-categories__sale">
+          <b class="menu-categories__title">sale</b>
+          <ul class="menu-categories__sale-clmn-1">
+          </ul>
+          <ul class="menu-categories__sale-clmn-2">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main class="main-page">
+      <div class="main-page__wrapper">
+        <div class="main-page__breadcrumbs  breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li><a class="breadcrumbs__link" href="#">Home</a><span class="breadcrumbs__link-sep">/</span></li>
+            <li><a class="breadcrumbs__link" href="#">Test Theme</a><span class="breadcrumbs__link-sep">/</span></li>
+            <li><a class="breadcrumbs__link  breadcrumbs__link--active" href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+          </ul>
+        </div>
+        <h2 class="main-page__title">Lorem Ipsum Dolor Sit Amet</h2>
+        <section class="main-page__section  items-block">
+          <article class="items-block__item  card-item">
+            <div class="card-item__gallery  gallery-item">
+              <img id="bigImg" class="gallery-item__main-image  gallery-item__main-image--show" src="img/4971486823_d01e5ae49a_o.jpg" alt="">
+              <ul id="listImg" class="gallery-item__list">
+                <li class="gallery-item__list-img  gallery-item__list-img--active" ><a href="img/4971486823_d01e5ae49a_o.jpg" title="image1"><img src="img/img_1.jpg" alt="bird"></a></li>
+                <li class="gallery-item__list-img" ><a href="img/21683293425_ed9167be65_k.jpg" title="image2"><img src="img/img_2.jpg" alt="spaceman"></a></li>
+                <li class="gallery-item__list-img" ><a href="img/20705128205_55b2641dd2_k.jpg" title="image3"><img src="img/img_3.jpg" alt="man"></a></li>
+                <li class="gallery-item__list-img" ><a href="img/18744051266_23e4d9147d_k.jpg" title="image4"><img src="img/img_4.jpg" alt="halloween"></a></li>
+                <li class="gallery-item__list-img" ><a href="img/24267732553_a4bddb24a5_k.jpg" title="image5"><img src="img/img_5.jpg" alt="building"></a></li>
+              </ul>
+            </div>
+            <div class="card-item__order-block">
+              <div class="card-item__price">
+                $299.99
+              </div>
+              <div class="card-item__color-select">
+                Dark Gray
+              </div>
+              <div class="card-item__amount-item">
+                2
+              </div>
+              <button class="card-item__buy" type="button" name="buy">add to cart</button>
+              <p class="card-item__order-desc">Sed ut perspiciatis unde omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inven-
+                tore Beatae vitae dicta sunt explicabo. <br>
+                Nemo enim ipsam voluptatem quia voluptas</p>
+              <a class="card-item__order-desc-link" href="#">Read more</a>
+              <div class="card-item__social">
+                <span>Share</span>
+                <span class="social-links">
+                  <a class="social-links__link  social-links__link--fb" href="#">
+                    <svg width="8" height="17" viewBox="0 0 8 17">
+                      <path class="social-links__icon" d="M8,6H5V4A1.2,1.2,0,0,1,6.034,2.924H7.956V0.011L5.308,0C2.369,0,2,2.61,2,4V6H0V9H2v8H5V9H8V6Z"/>
+                    </svg>
+                  </a>
+                  <a class="social-links__link  social-links__link--google" href="#">
+                    <svg width="18" height="16" viewBox="0 0 18 16">
+                      <path class="social-links__icon" d="M17.625,6.5H14.911V3.812a0.373,0.373,0,0,0-.375-0.371H13.763a0.373,0.373,0,0,0-.376.371V6.5H10.673a0.374,0.374,0,0,0-.376.372V7.634a0.374,0.374,0,0,0,.376.371h2.714v2.687a0.373,0.373,0,0,0,.376.371h0.773a0.373,0.373,0,0,0,.375-0.371V8.005h2.714A0.374,0.374,0,0,0,18,7.634V6.869A0.374,0.374,0,0,0,17.625,6.5ZM8.5,8.852a3.154,3.154,0,0,1-1.1-1.167c0-.328.03-0.485,0.774-1.058A3.512,3.512,0,0,0,9.67,3.867a3.652,3.652,0,0,0-.783-2.358H9.27a0.374,0.374,0,0,0,.22-0.07l1.068-.765A0.367,0.367,0,0,0,10.7.258,0.376,0.376,0,0,0,10.338,0H5.563A4.889,4.889,0,0,0,3.989.269,4.071,4.071,0,0,0,1.032,3.837a3.817,3.817,0,0,0,3.9,3.8,1.993,1.993,0,0,0-.066.5,1.85,1.85,0,0,0,.258.941H5.067a5.225,5.225,0,0,0-4.78,2.572A2.8,2.8,0,0,0,0,12.855a2.245,2.245,0,0,0,.3,1.113,4.254,4.254,0,0,0,2.774,1.774A9.034,9.034,0,0,0,5.264,16a7.1,7.1,0,0,0,1.952-.261,3.863,3.863,0,0,0,3.116-3.514A3.647,3.647,0,0,0,8.5,8.852Zm-6.03,3.5c0-1.11,1.426-2.085,3.052-2.085H5.569a3.673,3.673,0,0,1,1.024.154l0.323,0.219A2.829,2.829,0,0,1,8.3,12.016a1.724,1.724,0,0,1,.049.4c0,1.383-1.042,2.084-3.1,2.084C3.695,14.5,2.474,13.556,2.474,12.347Zm1.479-10.5a1.255,1.255,0,0,1,.96-0.439H4.955A2.8,2.8,0,0,1,7.206,4.008a2.505,2.505,0,0,1-.47,1.97,1.253,1.253,0,0,1-.972.44H5.747C4.713,6.386,3.682,5.177,3.5,3.779A2.422,2.422,0,0,1,3.953,1.852Z"/>
+                    </svg>
+                  </a>
+                  <a class="social-links__link  social-links__link--tw" href="#">
+                    <svg width="16" height="13" viewBox="0 0 16 13">
+                      <path class="social-links__icon" d="M16,1.54a6.556,6.556,0,0,1-1.886.516A3.29,3.29,0,0,0,15.557.24a6.588,6.588,0,0,1-2.085.8A3.285,3.285,0,0,0,7.878,4.03,9.321,9.321,0,0,1,1.11.6,3.286,3.286,0,0,0,2.126,4.983,3.271,3.271,0,0,1,.639,4.572c0,0.014,0,.028,0,0.042A3.285,3.285,0,0,0,3.273,7.832a3.3,3.3,0,0,1-1.483.056,3.287,3.287,0,0,0,3.067,2.28,6.588,6.588,0,0,1-4.078,1.4A6.731,6.731,0,0,1,0,11.527,9.293,9.293,0,0,0,5.029,13a9.276,9.276,0,0,0,9.342-9.339c0-.142,0-0.284-0.009-0.425A6.649,6.649,0,0,0,16,1.54Z"/>
+                    </svg>
+                  </a>
+                  <a class="social-links__link  social-links__link--pinterest" href="#">
+                    <svg width="13" height="16" viewBox="0 0 13 16">
+                      <path class="social-links__icon" d="M6.894,0C2.311,0,0,3.131,0,5.743A3.507,3.507,0,0,0,1.975,9.253a0.335,0.335,0,0,0,.483-0.23c0.044-.161.15-0.567,0.2-0.737a0.433,0.433,0,0,0-.139-0.513,2.574,2.574,0,0,1-.637-1.8,4.467,4.467,0,0,1,4.749-4.4c2.59,0,4.013,1.508,4.013,3.522,0,2.65-1.231,4.887-3.058,4.887A1.444,1.444,0,0,1,6.061,8.208a18.96,18.96,0,0,0,.851-3.261,1.254,1.254,0,0,0-1.3-1.38,2.135,2.135,0,0,0-1.86,2.379A3.4,3.4,0,0,0,4.059,7.4L2.819,12.408A9.829,9.829,0,0,0,2.79,15.9a0.13,0.13,0,0,0,.229.053,9.715,9.715,0,0,0,1.741-3.008c0.118-.409.678-2.526,0.678-2.526A2.8,2.8,0,0,0,7.8,11.564c3.1,0,5.2-2.693,5.2-6.3C13,2.54,10.577,0,6.894,0Z"/>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div class="card-item__desc-block">
+              <ul class="card-item__desc-nav">
+                <li class="card-item__desc-select  card-item__desc-nav-item  card-item__desc-nav-item--show">Description</li>
+                <li class="card-item__info-select  card-item__desc-nav-item">Additional Information</li>
+                <li class="card-item__review-select  card-item__desc-nav-item">Reviews (3)</li>
+              </ul>
+              <div class="card-item__text  card-item__text--show  card-item__text-desc">
+                <div class="card-item__text-left">
+                  <p>
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa.
+                  </p>
+                </div>
+                <div class="card-item__text-right">
+                  <p>
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vul-
+                    putate eget, arcu.
+                  </p>
+                </div>
+              </div>
+              <div class="card-item__text  card-item__text-info">
+                <div class="card-item__text-left">
+                  <p>
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa.
+                  </p>
+                </div>
+                <div class="card-item__text-right">
+                  <p>
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vul-
+                    putate eget, arcu.
+                  </p>
+                </div>
+              </div>
+              <div class="card-item__text  card-item__text-review">
+                <div class="card-item__text-left">
+                  <p>
+                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa.
+                  </p>
+                </div>
+                <div class="card-item__text-right">
+                  <p>
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vul-
+                    putate eget, arcu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="main-page__section  popular-items">
+          <div class="popular-items__header">
+            <button class="popular-items__btn  popular-items__btn--left" type="button" name="button">left</button>
+            <h3>Popular items</h3>
+            <button class="popular-items__btn  popular-items__btn--right" type="button" name="button">right</button>
+          </div>
+          <div class="popular-items__card-wrapper">
+          <ul class="popular-items__card-container">
+            <li class="popular-items__card  popular-items__card--show" ><a href="#">
+              <article class="card-popular">
+                <div class="card-popular__img">
+                  <img src="img/8020272673_bae0279882_o.jpg" alt="Kristina Dam Oak">
+                </div>
+                <div class="card-popular__desc">
+                  <p class="card-popular__desc-title">Kristina Dam Oak Table With White Marble Top</p>
+                  <span class="card-popular__desc-price">$ 799.55</span>
+                </div>
+              </article>
+            </a></li>
+            <li class="popular-items__card  popular-items__card--show"><a href="#">
+              <article class="card-popular">
+                <div class="card-popular__img">
+                  <img src="img/5949933307_6ded5b5147_b.jpg" alt="Kristina Dam">
+                </div>
+                <div class="card-popular__desc">
+                  <p class="card-popular__desc-title">Kristina Dam Oak Table With White Marble Top</p>
+                  <span class="card-popular__desc-price">$ 2195.00</span>
+                </div>
+              </article>
+            </a></li>
+            <li class="popular-items__card  popular-items__card--show" ><a href="#">
+              <article class="card-popular">
+                <div class="card-popular__img">
+                  <img src="img/7444246574_7fbec57d2b_k.jpg" alt="Activate Facial Mask">
+                </div>
+                <div class="card-popular__desc">
+                  <p class="card-popular__desc-title">Activate Facial Mask and Charcoal Soap</p>
+                  <span class="card-popular__desc-price">$ 129.55</span>
+                </div>
+              </article>
+            </a></li>
+            <li class="popular-items__card  popular-items__card--show"><a href="#">
+              <article class="card-popular">
+                <div class="card-popular__img">
+                  <img src="img/3777132543_6f14357b48_b.jpg" alt="Cocktail Table">
+                </div>
+                <div class="card-popular__desc">
+                  <p class="card-popular__desc-title">Cocktail Table Walnut | YES</p>
+                  <span class="card-popular__desc-price">$ 629.99</span>
+                </div>
+              </article>
+            </a></li>
+            <li class="popular-items__card"><a href="#">
+              <article class="card-popular">
+                <div class="card-popular__img">
+                  <img src="img/5949933307_6ded5b5147_b.jpg" alt="Kristina Dam">
+                </div>
+                <div class="card-popular__desc">
+                  <p class="card-popular__desc-title">Kristina Dam Oak Table With White Marble Top</p>
+                  <span class="card-popular__desc-price">$ 2195.00</span>
+                </div>
+              </article>
+            </a></li>
+            <li class="popular-items__card"><a href="#">
+              <article class="card-popular">
+                <div class="card-popular__img">
+                  <img src="img/7444246574_7fbec57d2b_k.jpg" alt="Activate Facial Mask">
+                </div>
+                <div class="card-popular__desc">
+                  <p class="card-popular__desc-title">Activate Facial Mask and Charcoal Soap</p>
+                  <span class="card-popular__desc-price">$ 129.55</span>
+                </div>
+              </article>
+            </a>
+            </li>
+            <li class="popular-items__card">
+              <a href="#">
+                <article class="card-popular">
+                  <div class="card-popular__img">
+                    <img src="img/3777132543_6f14357b48_b.jpg" alt="Cocktail Table">
+                  </div>
+                  <div class="card-popular__desc">
+                    <p class="card-popular__desc-title">Cocktail Table Walnut | YES</p>
+                    <span class="card-popular__desc-price">$ 629.99</span>
+                  </div>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </section>
+      </div>
+    </main>
+    <section class="privilege">
+      <div class="privilege__wrapper">
+        <div class="privilege__item  privilege__delivery">
+          <b>free delivery</b>
+          <p>Sed ut perspiciatis unde omnis iste
+            natus error sit voluptatem accusan
+            tium doloremque</p>
+        </div>
+        <div class="privilege__item  privilege__returns">
+          <b>easy returns</b>
+          <p>Totam rem aperiam, eaque ipsa quae
+            ab illo inventore veritatis et quasi ar
+            chitecto beatae vitae </p>
+        </div>
+        <div class="privilege__item  privilege__choice">
+          <b>wide choice</b>
+          <p>Sed ut perspiciatis unde omnis iste
+            natus error sit voluptatem accusan
+            tium</p>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__copyright  copyright">
+          © 2016
+          <a class="copyright__link" href="#">Test Theme</a>
+          Made with love
+        </div>
+        <div class="page-footer__menu  menu-footer">
+          <div class="menu-footer__categories">
+            <b class="menu-footer__title">Categories</b>
+            <ul class="menu-footer__categories-clmn-1">
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Alcohol</a></li>
+              <li><a href="#">Art</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Drink</a></li>
+              <li><a href="#">Electronics</a></li>
+              <li><a href="#">Flowers & Plants</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Gadgets</a></li>
+              <li><a href="#">Garden</a></li>
+              <li><a href="#">Grocery</a></li>
+            </ul>
+            <ul class="menu-footer__categories-clmn-2">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Jewelry</a></li>
+              <li><a href="#">Kids & Baby</a></li>
+              <li><a href="#">Men's Fashion</a></li>
+              <li><a href="#">Mobile</a></li>
+              <li><a href="#">Motorcycles</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">Office</a></li>
+              <li><a href="#">Pets</a></li>
+              <li><a href="#">Romantic</a></li>
+            </ul>
+            <ul class="menu-footer__categories-clmn-3">
+              <li><a href="#">Sport</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">Women's Fashion</a></li>
+            </ul>
+          </div>
+          <div class="menu-footer__about">
+            <b class="menu-footer__title">About</b>
+            <ul class="menu-footer__about-list">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-footer__social">
+          <span class="social-links">
+            <a class="social-links__link  social-links__link--fb" href="#">
+              <svg width="8" height="17" viewBox="0 0 8 17">
+                <path class="social-links__icon" d="M8,6H5V4A1.2,1.2,0,0,1,6.034,2.924H7.956V0.011L5.308,0C2.369,0,2,2.61,2,4V6H0V9H2v8H5V9H8V6Z"/>
+              </svg>
+            </a>
+            <a class="social-links__link  social-links__link--google" href="#">
+              <svg width="18" height="16" viewBox="0 0 18 16">
+                <path class="social-links__icon" d="M17.625,6.5H14.911V3.812a0.373,0.373,0,0,0-.375-0.371H13.763a0.373,0.373,0,0,0-.376.371V6.5H10.673a0.374,0.374,0,0,0-.376.372V7.634a0.374,0.374,0,0,0,.376.371h2.714v2.687a0.373,0.373,0,0,0,.376.371h0.773a0.373,0.373,0,0,0,.375-0.371V8.005h2.714A0.374,0.374,0,0,0,18,7.634V6.869A0.374,0.374,0,0,0,17.625,6.5ZM8.5,8.852a3.154,3.154,0,0,1-1.1-1.167c0-.328.03-0.485,0.774-1.058A3.512,3.512,0,0,0,9.67,3.867a3.652,3.652,0,0,0-.783-2.358H9.27a0.374,0.374,0,0,0,.22-0.07l1.068-.765A0.367,0.367,0,0,0,10.7.258,0.376,0.376,0,0,0,10.338,0H5.563A4.889,4.889,0,0,0,3.989.269,4.071,4.071,0,0,0,1.032,3.837a3.817,3.817,0,0,0,3.9,3.8,1.993,1.993,0,0,0-.066.5,1.85,1.85,0,0,0,.258.941H5.067a5.225,5.225,0,0,0-4.78,2.572A2.8,2.8,0,0,0,0,12.855a2.245,2.245,0,0,0,.3,1.113,4.254,4.254,0,0,0,2.774,1.774A9.034,9.034,0,0,0,5.264,16a7.1,7.1,0,0,0,1.952-.261,3.863,3.863,0,0,0,3.116-3.514A3.647,3.647,0,0,0,8.5,8.852Zm-6.03,3.5c0-1.11,1.426-2.085,3.052-2.085H5.569a3.673,3.673,0,0,1,1.024.154l0.323,0.219A2.829,2.829,0,0,1,8.3,12.016a1.724,1.724,0,0,1,.049.4c0,1.383-1.042,2.084-3.1,2.084C3.695,14.5,2.474,13.556,2.474,12.347Zm1.479-10.5a1.255,1.255,0,0,1,.96-0.439H4.955A2.8,2.8,0,0,1,7.206,4.008a2.505,2.505,0,0,1-.47,1.97,1.253,1.253,0,0,1-.972.44H5.747C4.713,6.386,3.682,5.177,3.5,3.779A2.422,2.422,0,0,1,3.953,1.852Z"/>
+              </svg>
+            </a>
+            <a class="social-links__link  social-links__link--tw" href="#">
+              <svg width="16" height="13" viewBox="0 0 16 13">
+                <path class="social-links__icon" d="M16,1.54a6.556,6.556,0,0,1-1.886.516A3.29,3.29,0,0,0,15.557.24a6.588,6.588,0,0,1-2.085.8A3.285,3.285,0,0,0,7.878,4.03,9.321,9.321,0,0,1,1.11.6,3.286,3.286,0,0,0,2.126,4.983,3.271,3.271,0,0,1,.639,4.572c0,0.014,0,.028,0,0.042A3.285,3.285,0,0,0,3.273,7.832a3.3,3.3,0,0,1-1.483.056,3.287,3.287,0,0,0,3.067,2.28,6.588,6.588,0,0,1-4.078,1.4A6.731,6.731,0,0,1,0,11.527,9.293,9.293,0,0,0,5.029,13a9.276,9.276,0,0,0,9.342-9.339c0-.142,0-0.284-0.009-0.425A6.649,6.649,0,0,0,16,1.54Z"/>
+              </svg>
+            </a>
+            <a class="social-links__link  social-links__link--pinterest" href="#">
+              <svg width="13" height="16" viewBox="0 0 13 16">
+                <path class="social-links__icon" d="M6.894,0C2.311,0,0,3.131,0,5.743A3.507,3.507,0,0,0,1.975,9.253a0.335,0.335,0,0,0,.483-0.23c0.044-.161.15-0.567,0.2-0.737a0.433,0.433,0,0,0-.139-0.513,2.574,2.574,0,0,1-.637-1.8,4.467,4.467,0,0,1,4.749-4.4c2.59,0,4.013,1.508,4.013,3.522,0,2.65-1.231,4.887-3.058,4.887A1.444,1.444,0,0,1,6.061,8.208a18.96,18.96,0,0,0,.851-3.261,1.254,1.254,0,0,0-1.3-1.38,2.135,2.135,0,0,0-1.86,2.379A3.4,3.4,0,0,0,4.059,7.4L2.819,12.408A9.829,9.829,0,0,0,2.79,15.9a0.13,0.13,0,0,0,.229.053,9.715,9.715,0,0,0,1.741-3.008c0.118-.409.678-2.526,0.678-2.526A2.8,2.8,0,0,0,7.8,11.564c3.1,0,5.2-2.693,5.2-6.3C13,2.54,10.577,0,6.894,0Z"/>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/categories.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
